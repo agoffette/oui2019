@@ -1,0 +1,34 @@
+@font-face {
+font-family: GTWalsheimRegular;
+src: url(css/fonts/GT-Walsheim.otf);
+}
+
+@font-face {
+font-family: GTWalsheimMedium;
+src: url(css/fonts/GT-Walsheim-Medium.otf);
+}
+
+@font-face {
+font-family: GTWalsheimLight;
+src: url(css/fonts/GT-Walsheim-Light.otf);
+}
+
+@font-face {
+font-family: GTWalsheimBold;
+src: url(css/fonts/GT-Walsheim-Bold.otf);
+}
+
+@font-face {
+font-family: GTWalsheimBlack;
+src: url(css/fonts/GT-Walsheim-Black.otf);
+}
+
+body {
+  background-color: rgb(254,254,254);
+  margin: 0;
+}
+
+h1 {
+  color : rgb(133,109,77);
+  font-family: GTWalsheimMedium;
+}

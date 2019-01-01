@@ -24,11 +24,33 @@ src: url(css/fonts/GT-Walsheim-Black.otf);
 }
 
 body {
-  background-color: rgb(254,254,254);
+  background-color: rgb(255,255,250);
   margin: 0;
 }
 
-h1 {
-  color : rgb(133,109,77);
+.header {
+  height: calc(100vh - 50px);
+  padding : 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  color : rgb(209,194,184);
   font-family: GTWalsheimMedium;
+  margin : 0;
+}
+
+#name {
+  font-size: 7vw;
+}
+
+#date {
+  font-size: 8.1vw;
+}
+
+#place {
+  font-size: 6.2vw;
 }

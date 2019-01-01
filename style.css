@@ -69,7 +69,7 @@ body {
 
 .schedule h1 {
   font-family: GTWalsheimMedium;
-  font-size : 6vw;
+  font-size : 35px;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -128,24 +128,59 @@ body {
 }
 
 .itineraire h2:hover {
-  border: 1px solid rgb(235,243,254);
-  color: red;
-  background-color: rgb(235,243,254);
+  border: 1px solid red;
+  color: rgb(235,243,254);
+  background-color: red;
 }
 
 .logements {
   height : 100vh;
-  font-family: GTWalsheimMedium;
   color : rgb(209,194,184);
+  font-family: GTWalsheimLight;
 }
 
 .logements h1 {
-  font-size : 6vw;
+  font-size : 35px;
   margin : 0;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 50px;
+  font-family: GTWalsheimMedium;
 }
 
+.infos {
+  height: 100vh;
+  font-family: GTWalsheimLight;
+  background-color: rgb(209,194,184);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.infos h1 {
+  font-size: 35px;
+  font-family: GTWalsheimMedium;
+}
+
+.liste-mariage {
+  height : 30vh;
+  color : rgb(209,194,184);
+  font-family: GTWalsheimLight;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.liste-mariage h1 {
+  font-size: 35px;
+  font-family: GTWalsheimMedium;
+}

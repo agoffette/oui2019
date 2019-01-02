@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background-color: rgb(255,255,250);
+  background-color: white;
   height: calc(100vh - 50px);
   padding : 25px;
   display: flex;
@@ -38,7 +38,7 @@ body {
 }
 
 .header h1 {
-  color : rgb(209,194,184);
+  color : rgb(25,25,112);
   font-family: GTWalsheimMedium;
   margin : 0;
 }
@@ -56,8 +56,8 @@ body {
 }
 
 .schedule {
-  background-color: rgb(209,194,184);
-  color : rgb(255,255,250);
+  background-color: rgb(25,25,112);
+  color : white;
   height: calc(100vh - 50px);
   padding : 25px;
   display: flex;
@@ -102,8 +102,8 @@ body {
 }
 
 .itineraire {
-  height: 20vh;
-  background-color: rgb(209,194,184);
+  height: 15vh;
+  background-color: rgb(25,25,112);
   font-family: GTWalsheimMedium;
   display: flex;
   align-items: center;
@@ -113,13 +113,13 @@ body {
 
 .itineraire h2 {
   border: 1px solid white;
-  border-radius: 50px;
-  font-size : 16px;
+  border-radius: 5px;
+  font-size : 18px;
   padding : 7px 20px;
+  width : 110px;
   margin : 10px;
-  color: rgb(209,194,184);
+  color: rgb(25,25,112);
   background-color: white;
-  box-shadow: 3px 2px 6px -3px ;
 }
 
 
@@ -135,7 +135,8 @@ body {
 
 .logements {
   height : 100vh;
-  color : rgb(209,194,184);
+  color : rgb(25,25,112);
+  background-color: white;
   font-family: GTWalsheimLight;
 }
 
@@ -151,9 +152,9 @@ body {
 }
 
 .infos {
-  height: 100vh;
+  height: 120vh;
   font-family: GTWalsheimLight;
-  background-color: rgb(209,194,184);
+  background-color: rgb(25,25,112);
   color: white;
   display: flex;
   flex-direction: column;
@@ -169,8 +170,8 @@ body {
 }
 
 .liste-mariage {
-  height : 30vh;
-  color : rgb(209,194,184);
+  height : 50vh;
+  color : rgb(25,25,112);
   font-family: GTWalsheimLight;
   display: flex;
   flex-direction: column;
@@ -182,5 +183,64 @@ body {
 
 .liste-mariage h1 {
   font-size: 35px;
+  margin-bottom: 0;
   font-family: GTWalsheimMedium;
 }
+
+.contact {
+  height : 50vh;
+  background-color : rgb(25,25,112);
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display : flex;
+  flex-direction: column;
+  padding: 30px;
+  font-family: GTWalsheimMedium;
+}
+
+.contact h2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size : 18px;
+  width : 200px;
+  padding : 7px 20px;
+  margin : 10px;
+  color: rgb(25,25,112);
+  background-color: white;
+}
+
+#email :hover {
+  background-color: red;
+  border: 1px solid red;
+}
+
+#whatsapp :hover {
+  background-color: rgb(31,230,0);
+  border: 1px solid rgb(31,230,0);
+}
+
+#phone :hover {
+  background-color: rgb(255,195,0);
+  border: 1px solid rgb(255,195,0);
+}
+
+.contact h1 {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.footer {
+  height : 5vh;
+  color : rgb(25,25,112);
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: GTWalsheimMedium;
+}
+

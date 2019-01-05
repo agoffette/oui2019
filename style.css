@@ -112,7 +112,7 @@ body {
 .itineraire h2 {
   border: 1px solid white;
   border-radius: 5px;
-  font-size : 18px;
+  font-size : 16px;
   padding : 7px 20px;
   width : 100px;
   margin : 10px;
@@ -208,20 +208,11 @@ body {
   background-color: white;
 }
 
-#email :hover {
+#email :hover, #whatsapp :hover, #phone :hover {
   background-color: red;
   border: 1px solid red;
 }
 
-#whatsapp :hover {
-  background-color: rgb(31,230,0);
-  border: 1px solid rgb(31,230,0);
-}
-
-#phone :hover {
-  background-color: rgb(255,195,0);
-  border: 1px solid rgb(255,195,0);
-}
 
 .contact h1 {
   margin-bottom: 10px;
@@ -232,12 +223,12 @@ body {
 }
 
 .footer {
-  height : 5vh;
   color : rgb(25,25,112);
   background-color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-family: GTWalsheimMedium;
+  font-family: GTWalsheimLight;
+  font-size: 12px;
 }
 

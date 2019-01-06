@@ -113,7 +113,7 @@ body {
   border: 1px solid white;
   border-radius: 5px;
   font-size : 16px;
-  padding : 7px 20px;
+  padding : 7px 10px;
   width : 100px;
   margin : 10px;
   color: rgb(25,25,112);
@@ -147,6 +147,41 @@ body {
   padding-top: 40px;
   padding-bottom: 50px;
   font-family: GTWalsheimMedium;
+}
+
+.hotel-card {
+  border : 1px solid rgb(25,25,112);
+  background-color: rgb(25,25,112);
+  border-radius: 5px;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  max-width: 500px;
+  position: relative;
+}
+
+.hotel-card h5 {
+  position: absolute;
+  margin: 0;
+  bottom: 90px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.hotel-card h6 {
+  position: absolute;
+  margin: 0;
+  bottom: 60px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.hotel-card h7 {
+  position: absolute;
+  margin: 0;
+  bottom: 30px;
+  right: 20px;
+  font-size: 14px;
 }
 
 .infos {

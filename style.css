@@ -99,10 +99,22 @@ body {
   height : 60vh;
 }
 
-.itineraire {
-  height: 15vh;
+.enroute {
+  height: 250px;
   background-color: rgb(25,25,112);
   font-family: GTWalsheimMedium;
+  display: flex;
+  flex-direction: column;
+}
+
+.enroute h1 {
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 10px;
+}
+
+.itineraire {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,10 +144,13 @@ body {
 }
 
 .logements {
-  height : 100vh;
   color : rgb(25,25,112);
   background-color: white;
   font-family: GTWalsheimLight;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
 }
 
 .logements h1 {
@@ -144,8 +159,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 25px;
   font-family: GTWalsheimMedium;
 }
 
@@ -154,35 +169,51 @@ body {
   background-color: rgb(25,25,112);
   border-radius: 5px;
   color: white;
-  margin: 30px;
+  margin: 0;
   padding: 20px;
-  max-width: 500px;
+  width: 800px;
+  text-align: center;
   position: relative;
 }
 
+@media screen and (max-width: 950px) {
+  .hotel-card {
+    width : 75vw;
+  }
+}
+
+.logements a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.hotel-card h3 {
+  margin-top: 0px;
+}
+
+.hotel-card h4 {
+  margin-bottom: 6px;
+}
+
 .hotel-card h5 {
-  position: absolute;
-  margin: 0;
-  bottom: 90px;
-  right: 20px;
-  font-size: 14px;
+  font-size: 15px;
+  margin: 0px;
+  font-family: GTWalsheimLight;
 }
 
 .hotel-card h6 {
   position: absolute;
-  margin: 0;
-  bottom: 60px;
+  bottom: 0px;
   right: 20px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
-.hotel-card h7 {
-  position: absolute;
-  margin: 0;
-  bottom: 30px;
-  right: 20px;
-  font-size: 14px;
+.logements a :hover {
+  background-color: red;
+  border: red;
 }
+
+
 
 .infos {
   font-family: GTWalsheimLight;

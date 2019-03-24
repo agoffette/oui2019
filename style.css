@@ -308,3 +308,24 @@ body {
   font-size: 12px;
 }
 
+.liste-mariage h2 {
+  border: 1px solid rgb(25,25,112);
+  border-radius: 5px;
+  font-size : 18px;
+  padding : 7px 20px;
+  width : 150px;
+  margin : 20px;
+  color: white;
+  background-color: rgb(25,25,112);
+}
+
+
+.liste-mariage a {
+  text-decoration: none;
+}
+
+.liste-mariage h2:hover {
+  border: 1px solid red;
+  color: rgb(235,243,254);
+  background-color: red;
+}

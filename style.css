@@ -242,6 +242,29 @@ body {
   font-family: GTWalsheimMedium;
 }
 
+.navettes-infos {
+  border : 1px solid white;
+  background-color: #ebf3fe;
+  border-radius: 5px;
+  color: rgb(25,25,112);
+  margin: 0;
+  margin-top: 50px;
+  padding: 20px;
+  width: 800px;
+  text-align: center;
+  position: relative;
+}
+
+.navettes-infos h4 {
+  line-height: 190%;
+}
+
+@media screen and (max-width: 950px) {
+  .navettes-infos {
+    width : 75vw;
+  }
+}
+
 .liste-mariage {
   height : 45vh;
   color : rgb(25,25,112);

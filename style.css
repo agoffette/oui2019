@@ -389,6 +389,6 @@ body {
 }
 
 .photo {
-  background-image: url("https://www.ot-saumur.fr/photo/gal/pic/gal-10720280.jpg?v=1554899595"); background-size: cover; background-position: center center;
+  background-image: url(images/poilley.jpg); background-size: cover; background-position: center center;
   height: 50vh;
  }

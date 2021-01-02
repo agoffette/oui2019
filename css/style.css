@@ -1,4 +1,9 @@
 @font-face {
+font-family: HomepageBaukasten-Bold;
+src: url(css/fonts/HomepageBaukasten-Bold.otf);
+}
+
+@font-face {
 font-family: HomepageBaukasten-Book;
 src: url(css/fonts/HomepageBaukasten-Book.otf);
 }

@@ -1,4 +1,14 @@
 @font-face {
+font-family: HomepageBaukasten-Book;
+src: url(css/fonts/HomepageBaukasten-Book.otf);
+}
+
+@font-face {
+font-family: Metropolis-Thin;
+src: url(css/fonts/Metropolis-Thin.otf);
+}
+
+@font-face {
 font-family: GTWalsheimRegular;
 src: url(css/fonts/GT-Walsheim.otf);
 }
@@ -28,7 +38,7 @@ body {
 }
 
 .header {
-  background-color: rgb(25,25,112);
+  background-color: rgb(246,57,67);
   height: calc(100vh - 50px);
   padding : 25px;
   display: flex;
@@ -39,7 +49,7 @@ body {
 
 .header h1 {
   color : white;
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
   margin : 0;
 }
 
@@ -57,7 +67,7 @@ body {
 
 .schedule {
   background-color: white;
-  color : rgb(25,25,112);
+  color : rgb(246,57,67);
   padding : 70px 25px;
   display: flex;
   flex-direction: column;
@@ -67,7 +77,7 @@ body {
 }
 
 .schedule h1 {
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
   font-size : 35px;
   margin: 0;
   padding-top: 30px;
@@ -76,13 +86,13 @@ body {
 }
 
 .schedule h2 {
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
   font-size : 24px;
   margin: 5px;
 }
 
 .schedule h3 {
-  font-family: GTWalsheimLight;
+  font-family: Metropolis-Thin;
   margin: 5px;
 }
 
@@ -101,8 +111,8 @@ body {
 
 .enroute {
   height: 250px;
-  background-color: rgb(25,25,112);
-  font-family: GTWalsheimMedium;
+  background-color: rgb(246,57,67);
+  font-family: HomepageBaukasten-Book;
   display: flex;
   flex-direction: column;
 }
@@ -128,7 +138,7 @@ body {
   padding : 7px 0px;
   width : 115px;
   margin : 10px;
-  color: rgb(25,25,112);
+  color: rgb(246,57,67);
   background-color: white;
 }
 
@@ -139,14 +149,14 @@ body {
 
 .itineraire h2:hover {
   border: 1px solid red;
-  color: rgb(235,243,254);
+  color: rgb(246,57,67);
   background-color: red;
 }
 
 .logements {
-  color : rgb(25,25,112);
+  color : rgb(246,57,67);
   background-color: white;
-  font-family: GTWalsheimLight;
+  font-family: Metropolis-Thin;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,7 +171,7 @@ body {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 25px;
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
 }
 
 .logements h2 {
@@ -173,8 +183,8 @@ body {
 }
 
 .hotel-card {
-  border : 1px solid rgb(25,25,112);
-  background-color: rgb(25,25,112);
+  border : 1px solid rgb(246,57,67);
+  background-color: rgb(246,57,67);
   border-radius: 5px;
   color: white;
   margin: 0;
@@ -208,7 +218,7 @@ body {
 .hotel-card h5 {
   font-size: 15px;
   margin: 0px;
-  font-family: GTWalsheimLight;
+  font-family: Metropolis-Thin;
 }
 
 .hotel-card h6 {
@@ -226,8 +236,8 @@ body {
 
 
 .infos {
-  font-family: GTWalsheimLight;
-  background-color: rgb(25,25,112);
+  font-family: Metropolis-Thin;
+  background-color: rgb(246,57,67);
   color: white;
   display: flex;
   flex-direction: column;
@@ -239,14 +249,14 @@ body {
 
 .infos h1 {
   font-size: 35px;
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
 }
 
 .navettes-infos {
   border : 1px solid white;
   background-color: #ebf3fe;
   border-radius: 5px;
-  color: rgb(25,25,112);
+  color: rgb(246,57,67);
   margin: 0;
   margin-top: 50px;
   padding: 20px;
@@ -267,8 +277,8 @@ body {
 
 .liste-mariage {
   height : 45vh;
-  color : rgb(25,25,112);
-  font-family: GTWalsheimLight;
+  color : rgb(246,57,67);
+  font-family: Metropolis-Thin;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -280,12 +290,12 @@ body {
 .liste-mariage h1 {
   font-size: 35px;
   margin-bottom: 0;
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
 }
 
 .contact {
   height : 50vh;
-  background-color : rgb(25,25,112);
+  background-color : rgb(246,57,67);
   color: white;
   text-align: center;
   align-items: center;
@@ -293,7 +303,7 @@ body {
   display : flex;
   flex-direction: column;
   padding: 30px;
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
 }
 
 .contact h2 {
@@ -303,7 +313,7 @@ body {
   width : 200px;
   padding : 7px 20px;
   margin : 10px;
-  color: rgb(25,25,112);
+  color: rgb(246,57,67);
   background-color: white;
 }
 
@@ -322,24 +332,24 @@ body {
 }
 
 .footer {
-  color : rgb(25,25,112);
+  color : rgb(246,57,67);
   background-color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-family: GTWalsheimLight;
+  font-family: Metropolis-Thin;
   font-size: 12px;
 }
 
 .liste-mariage h2 {
-  border: 1px solid rgb(25,25,112);
+  border: 1px solid rgb(246,57,67);
   border-radius: 5px;
   font-size : 18px;
   padding : 7px 20px;
   width : 150px;
   margin : 20px;
   color: white;
-  background-color: rgb(25,25,112);
+  background-color: rgb(246,57,67);
 }
 
 

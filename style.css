@@ -126,7 +126,7 @@ body {
   color: white;
   text-align: center;
   padding-top: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: HomepageBaukasten-Bold;
 }
 
@@ -143,8 +143,8 @@ body {
   border: 1px solid white;
   border-radius: 5px;
   font-size : 16px;
-  padding : 7px 0px;
-  width : 115px;
+  padding : 15px 0px;
+  width : 140px;
   margin : 10px;
   color: rgb(246,57,67);
   background-color: white;
@@ -276,8 +276,8 @@ body {
   border-radius: 5px;
   color: rgb(246,57,67);
   margin: 0;
-  margin-top: 50px;
-  margin-bottom: 45px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   padding: 20px;
   width: 800px;
   text-align: center;
@@ -325,7 +325,7 @@ body {
   justify-content: center;
   display : flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 45px;
   font-family: HomepageBaukasten-Book;
 }
 
@@ -333,8 +333,8 @@ body {
   border: 1px solid white;
   border-radius: 5px;
   font-size : 18px;
-  width : 200px;
-  padding : 7px 20px;
+  width : 300px;
+  padding : 15px 0px;
   margin : 10px;
   color: rgb(246,57,67);
   background-color: white;

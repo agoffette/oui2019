@@ -1,26 +1,36 @@
 @font-face {
+font-family: HomepageBaukasten-Book;
+src: url(css/fonts/HomepageBaukasten-Book.otf);
+}
+
+@font-face {
+font-family: Metropolis-Thin;
+src: url(css/fonts/Metropolis-Thin.otf);
+}
+
+@font-face {
 font-family: GTWalsheimRegular;
-src: url(/fonts/GT-Walsheim.otf);
+src: url(css/fonts/GT-Walsheim.otf);
 }
 
 @font-face {
 font-family: GTWalsheimMedium;
-src: url(/fonts/GT-Walsheim-Medium.otf);
+src: url(css/fonts/GT-Walsheim-Medium.otf);
 }
 
 @font-face {
 font-family: GTWalsheimLight;
-src: url(/fonts/GT-Walsheim-Light.otf);
+src: url(css/fonts/GT-Walsheim-Light.otf);
 }
 
 @font-face {
 font-family: GTWalsheimBold;
-src: url(/fonts/GT-Walsheim-Bold.otf);
+src: url(css/fonts/GT-Walsheim-Bold.otf);
 }
 
 @font-face {
 font-family: GTWalsheimBlack;
-src: url(/fonts/GT-Walsheim-Black.otf);
+src: url(css/fonts/GT-Walsheim-Black.otf);
 }
 
 body {
@@ -30,5 +40,5 @@ body {
 
 h1 {
   color : rgb(133,109,77);
-  font-family: GTWalsheimMedium;
+  font-family: HomepageBaukasten-Book;
 }

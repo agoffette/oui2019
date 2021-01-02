@@ -127,6 +127,7 @@ body {
   text-align: center;
   padding-top: 45px;
   margin-bottom: 10px;
+  font-family: HomepageBaukasten-Bold;
 }
 
 .itineraire {
@@ -240,7 +241,7 @@ body {
 
 .hotel-card h7 {
   position: absolute;
-  bottom: 0px;
+  bottom: 40px;
   left: 20px;
   font-size: 20px;
 }
@@ -341,6 +342,7 @@ body {
 
 #email :hover, #whatsapp :hover, #phone :hover {
   background-color: rgb(2,138,127);
+  color: white;
   border: 1px solid rgb(2,138,127);
 }
 

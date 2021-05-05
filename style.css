@@ -338,8 +338,8 @@ body {
 
 .contact {
   height : 50vh;
-  background-color : white;
-  color: rgb(246,57,67);
+  background-color : rgb(246,57,67);
+  color: white;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -350,14 +350,14 @@ body {
 }
 
 .contact h2 {
-  border: 1px solid rgb(246,57,67);
+  border: 1px solid white;
   border-radius: 5px;
   font-size : 18px;
   width : 300px;
   padding : 15px 0px;
   margin : 10px;
-  color: white;
-  background-color: rgb(246,57,67);
+  color: rgb(246,57,67);
+  background-color: white;
 }
 
 #email :hover, #whatsapp :hover, #phone :hover {

@@ -77,7 +77,8 @@ body {
 }
 
 #confirmation {
-  font-size: 3vw;
+  font-size: 3.2vw;
+  text-align:center;
 }
 
 .schedule {

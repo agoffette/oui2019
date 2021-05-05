@@ -79,6 +79,8 @@ body {
 #confirmation {
   font-size: 3.2vw;
   text-align:center;
+  padding-top:7px;
+
 }
 
 .schedule {

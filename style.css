@@ -320,7 +320,8 @@ body {
 
 .liste-mariage {
   height : 45vh;
-  color : rgb(246,57,67);
+  background-color: rgb(246,57,67);
+  color : white;
   font-family: Metropolis-Thin;
   display: flex;
   flex-direction: column;
@@ -338,8 +339,8 @@ body {
 
 .contact {
   height : 50vh;
-  background-color : rgb(246,57,67);
-  color: white;
+  background-color : white;
+  color: rgb(246,57,67);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -350,20 +351,20 @@ body {
 }
 
 .contact h2 {
-  border: 1px solid white;
+  border: 1px solid rgb(246,57,67);
   border-radius: 5px;
   font-size : 18px;
   width : 300px;
   padding : 15px 0px;
   margin : 10px;
-  color: rgb(246,57,67);
-  background-color: white;
+  color: white;
+  background-color: rgb(246,57,67);
 }
 
 #email :hover, #whatsapp :hover, #phone :hover {
-  background-color: white;
-  color: rgb(2,138,127);
-  border: 1px solid white);
+  background-color: rgb(2,138,127);
+  color: white);
+  border: 1px solid rgb(2,138,127));
 }
 
 

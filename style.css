@@ -363,8 +363,8 @@ body {
 
 #email :hover, #whatsapp :hover, #phone :hover {
   background-color: rgb(2,138,127);
-  color: white);
-  border: 1px solid rgb(2,138,127));
+  color: white;
+  border: 1px solid rgb(2,138,127);
 }
 
 
@@ -388,14 +388,14 @@ body {
 }
 
 .liste-mariage h2 {
-  border: 1px solid rgb(246,57,67);
+  border: 1px solid white;
   border-radius: 5px;
   font-size : 18px;
   padding : 7px 20px;
   width : 150px;
   margin : 20px;
-  color: white;
-  background-color: rgb(246,57,67);
+  color: rgb(246,57,67);
+  background-color: white;
 }
 
 

@@ -58,6 +58,12 @@ body {
   margin : 0;
 }
 
+.header h2 {
+  color : white;
+  font-family: HomepageBaukasten-Book;
+  margin : 0;
+}
+
 #name {
   font-size: 7vw;
 }
@@ -68,6 +74,10 @@ body {
 
 #place {
   font-size: 6.2vw;
+}
+
+#confirmation {
+  font-size: 6vw;
 }
 
 .schedule {
@@ -99,6 +109,13 @@ body {
 .schedule h3 {
   font-family: Metropolis-Thin;
   margin: 5px;
+}
+
+.schedule h4 {
+  font-family: Metropolis-Thin;
+  margin: 5px;
+  color : rgb(2,138,127);
+
 }
 
 
